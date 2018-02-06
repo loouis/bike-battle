@@ -47,6 +47,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/assets\/images\/d_bg-image.jpg": {
+		"ft": 16384,
+		"iS": 292435,
+		"oA": 0,
+		"oAP": "\/build\/assets\/images\/d_bg-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/images\/m_bike-battle-hero.jpg": {
 		"ft": 16384,
 		"iS": 239927,

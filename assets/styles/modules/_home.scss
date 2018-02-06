@@ -1,20 +1,16 @@
 
-$h-font: "VeneerTwo";
-
-@font-face {
-  font-family: $h-font;
-  src: url('assets/fonts/329F8B_0_0.eot');
-  src: url('assets/fonts/329F8B_0_0.eot?#iefix') format('embedded-opentype'),
-  url('assets/fonts/329F8B_0_0.woff2') format('woff2'),
-  url('assets/fonts/329F8B_0_0.woff') format('woff'),
-  url('assets/fonts/329F8B_0_0.ttf') format('truetype');
-}
+$h-font: "proxima-nova", sans-serif;
 
 body, html{
   background:black;
   font-family:arial;
   font-size:16px;
   font-family: $h-font;
+}
+
+h1,h2,h3,h4,h5{
+  font-family:$h-font;
+  font-weight: bold;
 }
 
 *{
@@ -25,8 +21,61 @@ p{
   padding:0;
 }
 
-.hero{
+.bg-fixed-img{
+  position:fixed;
   width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:0;
+
+  background-size:cover;
+}
+
+.buy-tickets{
+  color:white;
+  position:relative;
+  height:2000px;
+  width:100%;
+  background: rgba(0,0,0,.5);
+  z-index:2;
+
+  .wrapper{
+    max-width:1100px;
+    padding:140px 30px;
+    margin:0 auto;
+
+    header.section-title{
+      h2{
+        font-size: 1.2em;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        border-top:1px solid white;
+        padding-top:20px;
+      }
+    }
+  }
+
+  &__tickets{
+    float:right;
+
+    p{
+      padding-top:0;
+      margin-top:-8px;
+      font-weight: 100;
+      font-size:1.6em;
+      line-height: 1.4em;
+    }
+  }
+}
+
+.hero{
+  position: relative;
+  width:100%;
+  z-index: 2;
+  background:black url('assets/images/d_bg-image.jpg');
 
   img{
   }
@@ -34,11 +83,12 @@ p{
   .tagline{
     font-size:3.6em;
     color:white;
-    bottom:50px;
+    top:0;
+    padding:20px 15px;
     text-align: center;
     width:100%;
-    padding:0 15px;
     margin-bottom:30px;
+    background: rgba(0,0,0,.5);
   }
 
 
@@ -242,14 +292,32 @@ p{
 
   }
 }
+
+
 @media screen and (min-width:766px){
+
+  .buy-tickets{
+    .wrapper{
+      header.section-title{
+        width:20%;
+        float:left;
+        height:100px;
+      }
+    }
+    &__tickets{
+      padding-left:15%;
+      width:80%;
+      float:right;
+      height:100px;
+    }
+  }
   body,html{
     background:black;
   }
 
   .hero{
     height:100vh;
-    background:url('assets/images/bike-battle-hero.jpg');
+    // background:url('assets/images/bike-battle-hero.jpg');
     background-size:cover;
     background-position: center center;
 
@@ -337,7 +405,7 @@ p{
 @media screen and (min-width:1100px){
   .hero{
     .tagline{
-      font-size:3.6em;
+      font-size:2em;
       margin-bottom:0;
     }
   }
