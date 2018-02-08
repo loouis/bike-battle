@@ -8,15 +8,11 @@
     $contactDetails.toggleClass("contact-details--visible");
   });
 
-  // Vide button animation
-  var $hero = $("hero");
+  // Scroll to ticket section
+  $('.buy-tickets-btn').on("click", function(){
+    $('html, body').animate({
+      scrollTop: $('.buy-tickets').offset().top
+    }, 600);
+  });
 
-    setInterval(function(){
-      $(".hero").toggleClass("hero--animate");
-    }, 860);
-
-  // Fancybox
-  $("[data-fancybox]").fancybox({
-		// Options will go here
-	});
 })(jQuery);

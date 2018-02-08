@@ -37,19 +37,20 @@
 		"oAP": "\/build\/assets\/fonts\/329F8B_0_0.woff2",
 		"oF": 0
 		},
-	"\/assets\/images\/bike-battle-hero.jpg": {
-		"ft": 16384,
-		"iS": 388937,
+	"\/assets\/images\/add-to-cart-button.png": {
+		"ft": 32768,
+		"iS": 7055,
 		"oA": 0,
-		"oAP": "\/build\/assets\/images\/bike-battle-hero.jpg",
+		"oAP": "\/build\/assets\/images\/add-to-cart-button.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/d_bg-image.jpg": {
 		"ft": 16384,
-		"iS": 292435,
+		"iS": 311610,
 		"oA": 0,
 		"oAP": "\/build\/assets\/images\/d_bg-image.jpg",
 		"oF": 0,
@@ -57,14 +58,46 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/assets\/images\/d_tickets-bg-image.jpg": {
+		"ft": 16384,
+		"iS": 85075,
+		"oA": 0,
+		"oAP": "\/build\/assets\/images\/d_tickets-bg-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/footer-logo.png": {
+		"ft": 32768,
+		"iS": 35812,
+		"oA": 0,
+		"oAP": "\/build\/assets\/images\/footer-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/m_bike-battle-hero.jpg": {
 		"ft": 16384,
-		"iS": 239927,
+		"iS": 135117,
 		"oA": 0,
 		"oAP": "\/build\/assets\/images\/m_bike-battle-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/payment-types.png": {
+		"ft": 32768,
+		"iS": 4251,
+		"oA": 0,
+		"oAP": "\/build\/assets\/images\/payment-types.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/js\/global.js": {
@@ -91,7 +124,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/assets\/js\/libs\/fancybox-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -129,6 +162,19 @@
 		"oAP": "\/build\/assets\/styles\/_reset-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/assets\/styles\/mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/assets\/styles\/mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/assets\/styles\/modules\/_fancybox.scss": {
 		"aP": 0,
@@ -191,19 +237,18 @@
 		"oAP": "\/build\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/tickets-purchased.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/tickets-purchased.html",
+		"oF": 0
 		}
 	},
 "hooks": [
 	],
 "manualImportLinks": {
-	"\/assets\/js\/global.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/libs\/fancybox.js",
-			"position": 0,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"creationDate": 511345911,
